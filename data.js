@@ -1,6 +1,6 @@
 const data = {
     "skills": [
-        { "name": "Arcana", "description": "Knowledge of magic and spells." },
+        { "name": "Arcsana", "description": "Knowledge of magic and spells." },
         { "name": "History", "description": "Knowledge of historical events and lore." },
         { "name": "Perception", "description": "Ability to notice details and sense changes in the environment." },
         { "name": "Stealth", "description": "Ability to move silently and hide from detection." },
