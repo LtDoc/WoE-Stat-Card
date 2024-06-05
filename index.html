@@ -21,6 +21,10 @@
                     <select id="class" name="class"></select>
                 </div>
                 <div class="input-group">
+                    <label for="race">Race:</label>
+                    <select id="race" name="race"></select>
+                </div>
+                <div class="input-group">
                     <label for="challenge">Challenge:</label>
                     <input type="text" id="challenge" name="challenge">
                 </div>
@@ -34,7 +38,34 @@
                 </div>
                 <div class="input-group">
                     <label for="stats">Stats:</label>
-                    <input type="text" id="stats" name="stats">
+                    <div>
+                        <label for="stat1">STR:</label>
+                        <input type="text" id="stat1" name="stat1">
+                    </div>
+                    <div>
+                        <label for="stat2">DEX:</label>
+                        <input type="text" id="stat2" name="stat2">
+                    </div>
+                    <div>
+                        <label for="stat3">INT:</label>
+                        <input type="text" id="stat3" name="stat3">
+                    </div>
+                    <div>
+                        <label for="stat4">CHA:</label>
+                        <input type="text" id="stat4" name="stat4">
+                    </div>
+                    <div>
+                        <label for="stat5">STA:</label>
+                        <input type="text" id="stat5" name="stat5">
+                    </div>
+                    <div>
+                        <label for="stat6">CON:</label>
+                        <input type="text" id="stat6" name="stat6">
+                    </div>
+                    <div>
+                        <label for="stat7">PER:</label>
+                        <input type="text" id="stat7" name="stat7">
+                    </div>
                     <div class="roll-buttons">
                         <button type="button" onclick="rollStats(6)">Roll 1d6</button>
                         <button type="button" onclick="rollStats(12)">Roll 1d12</button>
@@ -125,6 +156,15 @@
                 <div class="input-group">
                     <label for="image">Image/Avatar:</label>
                     <input type="text" id="image" name="image">
+                </div>
+                <div class="input-group">
+                    <label for="seedInput">Seed Input:</label>
+                    <input type="text" id="seedInput" name="seedInput">
+                    <button type="button" onclick="loadSeed()">Load Seed</button>
+                </div>
+                <div class="input-group">
+                    <label for="generatedSeed">Generated Seed:</label>
+                    <input type="text" id="generatedSeed" name="generatedSeed" readonly>
                 </div>
                 <div class="toggle-container">
                     <label for="toggleSkills">Show Skills</label>

@@ -356,5 +356,67 @@ const data = {
         { "name": "Animal" },
         { "name": "Rogue/Ranger" }
 
+    ],
+    "races": [
+        {
+            "name": "Human",
+            "modifiers": {
+                "STR": 0,
+                "DEX": 0,
+                "CON": 0,
+                "INT": 0,
+                "CHA": 0,
+                "STA": 0,
+                "PER": 0
+            }
+        },
+        {
+            "name": "Elf",
+            "modifiers": {
+                "STR": -1,
+                "DEX": 2,
+                "CON": -1,
+                "INT": 1,
+                "CHA": 1,
+                "STA": -1,
+                "PER": 2
+            }
+        },
+        {
+            "name": "Dwarf",
+            "modifiers": {
+                "STR": 1,
+                "DEX": -1,
+                "CON": 2,
+                "INT": 0,
+                "CHA": -1,
+                "STA": 2,
+                "PER": 0
+            }
+        },
+        {
+            "name": "Orc",
+            "modifiers": {
+                "STR": 2,
+                "DEX": 0,
+                "CON": 2,
+                "INT": -1,
+                "CHA": -1,
+                "STA": 1,
+                "PER": -1
+            }
+        },
+        {
+            "name": "Halfling",
+            "modifiers": {
+                "STR": -1,
+                "DEX": 2,
+                "CON": 0,
+                "INT": 0,
+                "CHA": 1,
+                "STA": 0,
+                "PER": 1
+            }
+        }
     ]
 };

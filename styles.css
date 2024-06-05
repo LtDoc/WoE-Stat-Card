@@ -157,3 +157,28 @@ select {
 .input-group {
     margin-bottom: 15px;
 }
+
+.stats-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.stats-inputs label {
+    width: 50px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.stats-inputs input {
+    width: 60px;
+}
+
+#seedInput, #generatedSeed {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
